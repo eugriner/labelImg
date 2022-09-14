@@ -66,6 +66,19 @@ Python 3 + Qt5
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+Arch Linux
+^^^^^^^^^^^^
+
+Python 3 + Qt5
+
+.. code:: shell
+
+    yay -S python-pyqt5
+    pip install -r requirements/requirements-linux-python3.txt
+    make qt5py3
+    python3 labelImg.py
+    python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
 macOS
 ^^^^^
 
